@@ -1,6 +1,6 @@
 import express from 'express'
 import giftsRouter from './routes/gifts.js'
-//test
+
 const app = express()
 app.use('/public', express.static('./public'))
 app.use('/scripts', express.static('./public/scripts'))
